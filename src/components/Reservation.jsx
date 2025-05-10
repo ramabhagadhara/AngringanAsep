@@ -30,7 +30,7 @@ const Reservation = () => {
     }
     
     // Siapkan pesan WhatsApp
-    const message = `*RESERVASI ANGKRINGAN KEKINIAN*
+    const message = `*RESERVASI ANGKRINGAN ASEP*
     
 Nama: ${formData.name}
 No. HP: ${formData.phone}
@@ -45,7 +45,7 @@ Terima kasih telah melakukan reservasi!`;
     const encodedMessage = encodeURIComponent(message);
     
     // Ganti dengan nomor WhatsApp Anda (format: kode negara tanpa + atau 0)
-    const whatsappNumber = '6287820231973'; // Ganti dengan nomor WA Anda
+    const whatsappNumber = '6282173103500'; // Ganti dengan nomor WA Anda
     
     // Buka WhatsApp dengan pesan terisi
     window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
